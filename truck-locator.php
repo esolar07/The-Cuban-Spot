@@ -1,3 +1,12 @@
+<?php
+
+  require_once("DataBase.php");
+
+
+  
+
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
   <head>
