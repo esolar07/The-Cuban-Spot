@@ -27,11 +27,13 @@
     <![endif]-->
   </head>
   <body>
-      <!-- Page pre loader -->
-      <div id="pre-loader">
-          <div class="loader-holder">
-              <div class="frame">
-                  <img src="images/Preloader.gif" alt="Food Truck"/>
-              </div>
-          </div>
-      </div>
+    <!-- Page pre loader -->
+    <div id="pre-loader">
+        <div class="loader-holder">
+            <div class="frame">
+                <img src="images/Preloader.gif" alt="Food Truck"/>
+            </div>
+        </div>
+    </div>
+
+    <?php require_once('navigation.php'); ?>

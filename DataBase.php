@@ -24,4 +24,8 @@ class DataBase{
         
     }
 
+    public static function dbDisconnect(){
+        self::$db = null;
+    }
+
 }

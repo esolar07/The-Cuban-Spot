@@ -2,6 +2,9 @@
 
     require_once("DataBase.php");
 
+    require_once('header.php');
+
+?>
 
 
     <form class="admin-sch-form" action="DataBase.php" method="post">
@@ -23,3 +26,5 @@
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
+
+<?php require_once('footer.php'); ?>
