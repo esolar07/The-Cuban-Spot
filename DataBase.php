@@ -12,8 +12,9 @@ class DataBase{
         
         try {
 
-            self::db = new PDO( "mysql:host={self::$host};dbname={self::$dbname}", self::$dbUsername, self::$dbUserPassword );
+            self::$db = new PDO( "mysql:host=" . self::$host . ";" . "dbname=" . self::$dbName, self::$dbUsername, self::$dbUserPassword );
             self::$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+            return self::$db;
             
         } catch(Exception $e){
 

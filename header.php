@@ -35,5 +35,12 @@
             </div>
         </div>
     </div>
+    <div class="wrapper">
 
-    <?php require_once('navigation.php'); ?>
+    <?php 
+    
+    require_once('navigation.php'); 
+    
+    ?>
+
+    

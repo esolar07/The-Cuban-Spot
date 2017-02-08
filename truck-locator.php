@@ -6,10 +6,10 @@
 
   $sql = "SELECT * FROM schedule";
 
-  try(
+  try{
 
     $time = $pdo -> query($sql);
-  ) catch(Exception $e){
+  }catch(Exception $e){
 
 		echo $e->getMessage();
 		die();
@@ -18,12 +18,12 @@
   
   $times = $time -> fetchAll(PDO::FETCH_ASSOC);
   
-  DataBase::dbDisconnect():
+  DataBase::dbDisconnect();
 
   require_once('header.php');
 
 ?>
-
+    <div class="main-part">
         <section class="bread-crumb-container">
           <div class="bread-crumb-img">
             <img src="images/bread-crumb2.png" alt="">
@@ -42,6 +42,13 @@
           <section class="address-main">
             <div class="container">
               <div class="row">
+                <pre>
+                  <?php 
+                    foreach ($times as $time){
+                      echo $time[id];
+                    }
+                  ?>
+                </pre>
                 <div class="col-md-3 col-sm-4 col-xs-12">
                   <h3><a href="#0">Kansas City</a></h3>
                   <p>No 97, Hudd Park, Kansas City Monday - Friday: 900 - 2000 Saturday: 900 - 1800 Sunday: closed</p>
