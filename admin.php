@@ -16,8 +16,8 @@
         // insert data
         if ($valid) {
             $pdo = DataBase::dbConnect();
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = 'UPDATE schedule SET location = ?, address = ?, start = ?, end = ? WHERE id = ?';
+            //$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql = "UPDATE schedule SET location = ?, address = ?, start = ?, end = ? WHERE id = ?";
             $update = $pdo->prepare($sql);
             $update->execute(array($location, $address, $start, $end, $id));
             DataBase::dbDisconnect();
@@ -32,8 +32,8 @@
 <div class="main-part">
     <form style='float:none; margin-right:auto; margin-left:auto;' class=" col-md-4 admin-sch-form" action="admin.php" method="post">
 
-        <select class="form-control" name="day">
-            <option value="1" >Monday</option>
+        <select class="form-control" id='day' name="day">
+            <option value="1">Monday</option>
             <option value="2">Tuesday</option>
             <option value="3">Wednesday</option>
             <option value="4">Thursday</option>
@@ -43,19 +43,19 @@
 
         <div class="form-group">
             <label for="nameOfLocation">Name of Location</label>
-            <input type="text" class="form-control" id="nameOfLocation" placeholder="">
+            <input type="text" class="form-control" name="nameOfLocation" id="nameOfLocation" placeholder="">
         </div>
         <div class="form-group">
             <label for="address">Address</label>
-            <input type="text" class="form-control" id="address" placeholder="">
+            <input type="text" class="form-control" name="address" id="address" placeholder="">
         </div>
         <div class="form-group">
             <label for="startTime">Start Time</label>
-            <input type="text" class="form-control" id="startTime" placeholder="">
+            <input type="text" class="form-control" name="startTime" id="startTime" placeholder="">
         </div>
         <div class="form-group">
             <label for="endTime">End Time</label>
-            <input type="text" class="form-control" id="endTime" placeholder="">
+            <input type="text" class="form-control" name="endTime" id="endTime" placeholder="">
         </div>
 
         <button type="submit" class="btn btn-default">Submit</button>

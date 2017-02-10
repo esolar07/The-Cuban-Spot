@@ -42,13 +42,21 @@
           <section class="address-main">
             <div class="container">
               <div class="row">
-                <pre>
-                  <?php 
-                    foreach ($times as $time){
-                      echo $time[id];
-                    }
-                  ?>
-                </pre>
+			  
+				<?php foreach ($times as $time){ ?>
+					<div class="col-md-3 col-sm-4 col-xs-12">
+						<h3><a href="#0"> <?php echo ucfirst($time['day']); ?> </a></h3>
+						<p> <?php echo ucfirst($time['location']); ?> </p>
+						<p> <?php echo $time['address']; ?> </p>
+						<p> <?php echo "From: " . $time['start'] . ":00 AM"; ?> </p>
+					    <p> <?php echo "To: " . $time['start'] . ":00 PM"; ?> </p>
+					</div>
+				<?php } ?>
+				
+				<!-- 
+				
+				********* hiding for now until Aaron decides on schedule *************
+				
                 <div class="col-md-3 col-sm-4 col-xs-12">
                   <h3><a href="#0">Kansas City</a></h3>
                   <p>No 97, Hudd Park, Kansas City Monday - Friday: 900 - 2000 Saturday: 900 - 1800 Sunday: closed</p>
@@ -80,9 +88,13 @@
                 <div class="col-md-3 col-sm-4 col-xs-12">
                   <h3><a href="#7">Miami</a></h3>
                   <p>No 97, Hudd Park, Miami City Monday - Friday: 900 - 2000 Saturday: 900 - 1800 Sunday: closed</p>
-                </div>
+                </div>\
+				-->
               </div>
             </div>
+			<div class="row" style=" width: 500px; margin: 0 auto; ">
+				<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border:solid 1px #777" width="700" height="600" frameborder="0" scrolling="no"></iframe>
+			</div>
           </section> <!-- address-main -->
         </div> <!-- main-part -->
     
