@@ -21,18 +21,19 @@
                     <h2>Our Shedule</h2>
                     <h3>Food truck</h3>
                     <div class="shedule-inside">
-                      <h6>Monday-Friday: 800<sup>00</sup> - 2000<sup>00</sup></h6>
-                      <h6>Saturday: 900<sup>00</sup> - 1700<sup>00</sup></h6>
+                      <h6>Monday-Friday: 10:00<sup>AM</sup> - 8:00<sup>PM</sup></h6>
+                      <h6>Saturday: 10:00<sup>AM</sup> - 8:00<sup>PM</sup></h6>
                       <h6>Sunday: closed</h6>
                     </div>
+					<!--
                     <h3>Catering</h3>
-                    <div class="shedule-inside">
+					<div class="shedule-inside">
                       <h6>Monday-Friday: 800<sup>00</sup> - 2400<sup>00</sup></h6>
                       <h6>Saturday: 900<sup>00</sup> - 2200<sup>00</sup></h6>
                       <h6>Sunday: closed</h6>
-                    </div>
+                    </div> -->
                     <div class="free-juice">
-                      <p>*Daily first 5 clients receive a free juice</p>
+                      <p>*Daily Cuban Spot lottery.</p>
                     </div>
                     <div class="glass">
                       <img src="images/glass.png" alt="">
@@ -103,7 +104,8 @@
               </div> <!-- heading -->
               <div class="dishes-container">
                 <div class="row">
-                  <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  
+				  <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="dishes-list">
                       <div class="dishes-img">
                         <a href="javascript:;">
@@ -116,12 +118,13 @@
                         </a>
                       </div> <!-- dishes-img -->
                       <div class="dishes-content">
-                        <h3><a href="javascript:;">Big Bur</a></h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-                        <a href="javascript:;" class="btn-black">New</a>
+                        <h3><a href="javascript:;">Frita</a></h3>
+                        <p>DCuban burger which is a mix of ground beef, ground pork and chorizo with sauted onions, cheese and potato sticks.</p>
+                        <a href="javascript:;" class="btn-black">Original</a>
                       </div> <!-- dishes-content -->
                     </div> <!-- dishes-list -->
                   </div>
+				  
                   <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="dishes-list">
                       <div class="dishes-img">
@@ -129,18 +132,19 @@
                           <img src="images/dishes-item2.jpg" alt="">
                           <div class="dishes_price">
                             <div class="dishes-price-content">
-                              <div class="deshies-doll">$19</div>
+                              <div class="deshies-doll">$14</div>
                             </div> <!-- dishes-price-content -->
                           </div> <!-- dishes_price -->
                         </a>
                       </div> <!-- dishes-img -->
                       <div class="dishes-content">
-                        <h3><a href="javascript:;">Quesadillas</a></h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-                        <a href="javascript:;" class="btn-black">Chef Selection</a>
+                        <h3><a href="javascript:;">Cuban Sandwich</a></h3>
+                        <p>Mustard, pickles, swiss cheese, ham, roasted pulled pork on authentic Cuban bread, placed on a panini grill with garlic butter on top.</p>
+                        <a href="javascript:;" class="btn-black">Recommended</a>
                       </div> <!-- dishes-content -->
                     </div> <!-- dishes-list -->
                   </div>
+				  
                   <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="dishes-list">
                       <div class="dishes-img">
@@ -148,79 +152,23 @@
                           <img src="images/dishes-item3.jpg" alt="">
                           <div class="dishes_price">
                             <div class="dishes-price-content">
-                              <div class="deshies-doll">$21</div>
+                              <div class="deshies-doll">$14</div>
                             </div> <!-- dishes-price-content -->
                           </div> <!-- dishes_price -->
                         </a>
                       </div> <!-- dishes-img -->
                       <div class="dishes-content">
-                        <h3><a href="javascript:;">Hamburger</a></h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-                        <a href="javascript:;" class="btn-black">Recommended</a>
-                      </div> <!-- dishes-content -->
-                    </div> <!-- dishes-list -->
-                  </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="dishes-list">
-                      <div class="dishes-img">
-                        <a href="javascript:;">
-                          <img src="images/dishes-item4.jpg" alt="">
-                          <div class="dishes_price">
-                            <div class="dishes-price-content">
-                              <div class="deshies-doll">$15</div>
-                            </div> <!-- dishes-price-content -->
-                          </div> <!-- dishes_price -->
-                        </a>
-                      </div> <!-- dishes-img -->
-                      <div class="dishes-content">
-                        <h3><a href="javascript:;">Fruits salad</a></h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-                        <a href="javascript:;" class="btn-black">Recommended</a>
-                      </div> <!-- dishes-content -->
-                    </div> <!-- dishes-list -->
-                  </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="dishes-list">
-                      <div class="dishes-img">
-                        <a href="javascript:;">
-                          <img src="images/dishes-item5.jpg" alt="">
-                          <div class="dishes_price">
-                            <div class="dishes-price-content">
-                              <div class="deshies-doll"><del>$25</del>$21</div>
-                            </div> <!-- dishes-price-content -->
-                          </div> <!-- dishes_price -->
-                        </a>
-                      </div> <!-- dishes-img -->
-                      <div class="dishes-content">
-                        <h3><a href="javascript:;">Hamburger</a></h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-                        <a href="javascript:;" class="btn-black">New</a>
-                      </div> <!-- dishes-content -->
-                    </div> <!-- dishes-list -->
-                  </div>
-                  <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="dishes-list">
-                      <div class="dishes-img">
-                        <a href="javascript:;">
-                          <img src="images/dishes-item6.jpg" alt="">
-                          <div class="dishes_price">
-                            <div class="dishes-price-content">
-                              <div class="deshies-doll">$21</div>
-                            </div> <!-- dishes-price-content -->
-                          </div> <!-- dishes_price -->
-                        </a>
-                      </div> <!-- dishes-img -->
-                      <div class="dishes-content">
-                        <h3><a href="javascript:;">Salad</a></h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+                        <h3><a href="javascript:;">Pan con Bistec</a></h3>
+                        <p>DThin cut of Milanesa steak with mayo potato sticks and saute onion on authentic Cuban bread and lightly toasted</p>
                         <a href="javascript:;" class="btn-black">Chef Selection</a>
                       </div> <!-- dishes-content -->
                     </div> <!-- dishes-list -->
                   </div>
-                </div>
-              </div> <!-- dishes-container -->
+				  
+			  
             </div>
           </section>
+		  
           <section class="our-client-container">
             <div class="container">
               <div class="heading wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">

@@ -97,7 +97,7 @@
                           <img src="images/dishes-media-noche.jpg" alt="">
                           <div class="dishes_price">
                             <div class="dishes-price-content">
-                              <div class="deshies-doll">$14</div>
+                              <div class="deshies-doll">$10</div>
                             </div> <!-- dishes-price-content -->
                           </div> <!-- dishes_price -->
                         </a>
@@ -116,7 +116,7 @@
                           <img src="images/dishes-original-frita.jpg" alt="">
                           <div class="dishes_price">
                             <div class="dishes-price-content">
-                              <div class="deshies-doll"><del>$10</del>$21</div>
+                              <div class="deshies-doll">$10</div>
                             </div> <!-- dishes-price-content -->
                           </div> <!-- dishes_price -->
                         </a>
@@ -192,7 +192,7 @@
                           <img src="images/dishes-cuban-fries.jpg" alt="">
                           <div class="dishes_price">
                             <div class="dishes-price-content">
-                              <div class="deshies-doll">$10</div>
+                              <div class="deshies-doll">$12</div>
                             </div> <!-- dishes-price-content -->
                           </div> <!-- dishes_price -->
                         </a>
@@ -211,7 +211,7 @@
                           <img src="images/dishes-steak-fries.jpg" alt="">
                           <div class="dishes_price">
                             <div class="dishes-price-content">
-                              <div class="deshies-doll">$10</div>
+                              <div class="deshies-doll">$12</div>
                             </div> <!-- dishes-price-content -->
                           </div> <!-- dishes_price -->
                         </a>
@@ -226,6 +226,14 @@
                 </div>
               </div> <!-- dishes-container -->
             </div>
+
+            <!--
+              
+              Need to add the following:
+
+              totones, maduros and croqueta -$5
+
+             -->
           </section>
           <div class="map-outer">
             <div id="truck-locator"></div>
