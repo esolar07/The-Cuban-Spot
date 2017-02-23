@@ -44,13 +44,17 @@
               <div class="row">
 			  
 				<?php foreach ($times as $time){ ?>
+
 					<div class="col-md-3 col-sm-4 col-xs-12">
+
 						<h3><a href="#0"> <?php echo ucfirst($time['day']); ?> </a></h3>
 						<p> <?php echo ucfirst($time['location']); ?> </p>
 						<p> <?php echo $time['address']; ?> </p>
 						<p> <?php echo "From: " . $time['start'] . ":00 AM"; ?> </p>
-					    <p> <?php echo "To: " . $time['start'] . ":00 PM"; ?> </p>
+					  <p> <?php echo "To: " . $time['start'] . ":00 PM"; ?> </p>
+
 					</div>
+          
 				<?php } ?>
 				
 				<!-- 
