@@ -63,18 +63,12 @@
                     <h2>Our Shedule</h2>
                     <h3>Food truck</h3>
                     <div class="shedule-inside">
-                      <h6>Monday-Friday: 800<sup>00</sup> - 2000<sup>00</sup></h6>
-                      <h6>Saturday: 900<sup>00</sup> - 1700<sup>00</sup></h6>
-                      <h6>Sunday: closed</h6>
-                    </div>
-                    <h3>Catering</h3>
-                    <div class="shedule-inside">
-                      <h6>Monday-Friday: 800<sup>00</sup> - 2400<sup>00</sup></h6>
-                      <h6>Saturday: 900<sup>00</sup> - 2200<sup>00</sup></h6>
-                      <h6>Sunday: closed</h6>
+                      <h6>Tuesday-Friday: 11:00  AM - 2:00 PM & 5:00 PM - 9:00PM</h6>
+                      <h6>Saturday: 11:00 AM - 9:00 PM</h6>
+                      <h6>Sunday & Monday: closed</h6>
                     </div>
                     <div class="free-juice">
-                      <p>*Daily first 5 clients receive a free juice</p>
+                      <p>*Daily Cuban Spot lottery</p>
                     </div>
                     <div class="glass">
                       <img src="images/glass.png" alt="">

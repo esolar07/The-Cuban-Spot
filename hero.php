@@ -27,7 +27,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6">Check now our menu and see the chedule
+                    style="z-index: 6">Check now our menu and see the schedule
                     </div>
                     <div class="tp-caption btn-menu-top"
                     data-x="400"
@@ -38,7 +38,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">Check menu</a>
+                    style="z-index: 6"><a href="menu.php" class="btn-black">Check menu</a>
                     </div>
                     <div class="tp-caption btn-menu-bottom"
                     data-x="570"
@@ -49,7 +49,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">See schedule</a>
+                    style="z-index: 6"><a href="truck-locator.php;" class="btn-black">See schedule</a>
                     </div>
                 </li>
                 <li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500" data-thumb="images/thumb1.jpg" data-delay="5000"  data-saveperformance="on"  data-title="Slide">
@@ -75,7 +75,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6">Check now our menu and see the chedule
+                    style="z-index: 6">Check now our menu and see the schedule
                     </div>
                     <div class="tp-caption btn-menu-top"
                     data-x="400"
@@ -86,7 +86,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">Check menu</a>
+                    style="z-index: 6"><a href="menu.php" class="btn-black">Check menu</a>
                     </div>
                     <div class="tp-caption btn-menu-bottom"
                     data-x="570"
@@ -97,7 +97,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">See schedule</a>
+                    style="z-index: 6"><a href="truck-locator.php" class="btn-black">See schedule</a>
                     </div>
                 </li>
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-thumb="images/thumb1.jpg" data-delay="5000"  data-saveperformance="on"  data-title="Slide">
@@ -123,7 +123,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6">Check now our menu and see the chedule
+                    style="z-index: 6">Check now our menu and see the schedule
                     </div>
                     <div class="tp-caption btn-menu-top"
                     data-x="400"
@@ -134,7 +134,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">Check menu</a>
+                    style="z-index: 6"><a href="menu.php" class="btn-black">Check menu</a>
                     </div>
                     <div class="tp-caption btn-menu-bottom"
                     data-x="570"
@@ -145,7 +145,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">See schedule</a>
+                    style="z-index: 6"><a href="truck-locator.php" class="btn-black">See schedule</a>
                     </div>
                 </li>
                 <li data-transition="zoomin" data-slotamount="7" data-masterspeed="2500" data-thumb="images/thumb1.jpg" data-delay="5000"  data-saveperformance="on"  data-title="Slide">
@@ -182,7 +182,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">Check menu</a>
+                    style="z-index: 6"><a href="menu.php" class="btn-black">Check menu</a>
                     </div>
                     <div class="tp-caption btn-menu-bottom"
                     data-x="570"
@@ -193,7 +193,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="javascript:;" class="btn-black">See schedule</a>
+                    style="z-index: 6"><a href="truck-locator.php" class="btn-black">See schedule</a>
                     </div>
                 </li>
             </ul>

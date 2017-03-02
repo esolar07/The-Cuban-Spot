@@ -21,9 +21,9 @@
                     <h2>Our Shedule</h2>
                     <h3>Food truck</h3>
                     <div class="shedule-inside">
-                      <h6>Monday-Friday: 10:00<sup>AM</sup> - 8:00<sup>PM</sup></h6>
-                      <h6>Saturday: 10:00<sup>AM</sup> - 8:00<sup>PM</sup></h6>
-                      <h6>Sunday: closed</h6>
+                      <h6>Tuesday-Friday: 11:00  AM - 2:00 PM & 5:00 PM - 9:00PM</h6>
+                      <h6>Saturday: 11:00 AM - 9:00 PM</h6>
+                      <h6>Sunday & Monday: closed</h6>
                     </div>
 					<!--
                     <h3>Catering</h3>
@@ -112,14 +112,14 @@
                           <img src="images/dishes-item1.jpg" alt="">
                           <div class="dishes_price">
                             <div class="dishes-price-content">
-                              <div class="deshies-doll">$15</div>
+                              <div class="deshies-doll">$10</div>
                             </div> <!-- dishes-price-content -->
                           </div> <!-- dishes_price -->
                         </a>
                       </div> <!-- dishes-img -->
                       <div class="dishes-content">
                         <h3><a href="javascript:;">Frita</a></h3>
-                        <p>DCuban burger which is a mix of ground beef, ground pork and chorizo with sauted onions, cheese and potato sticks.</p>
+                        <p>Cuban burger which is a mix of ground beef, ground pork and chorizo with sauted onions, cheese and potato sticks.</p>
                         <a href="javascript:;" class="btn-black">Original</a>
                       </div> <!-- dishes-content -->
                     </div> <!-- dishes-list -->
@@ -159,7 +159,7 @@
                       </div> <!-- dishes-img -->
                       <div class="dishes-content">
                         <h3><a href="javascript:;">Pan con Bistec</a></h3>
-                        <p>DThin cut of Milanesa steak with mayo potato sticks and saute onion on authentic Cuban bread and lightly toasted</p>
+                        <p>Thin cut of Milanesa steak with mayo potato sticks and saute onion on authentic Cuban bread and lightly toasted</p>
                         <a href="javascript:;" class="btn-black">Chef Selection</a>
                       </div> <!-- dishes-content -->
                     </div> <!-- dishes-list -->
@@ -208,11 +208,14 @@
                 <div class="row">
                   <div class="col-md-6 col-sm-6 col-xs-12 find-location-left">
                     <h2>Where you can find us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Check out are schedules page to find out were wi will be at next.</p>
                   </div>
+
                   <div class="col-md-6 col-sm-6 col-xs12 find-location-right">
                     <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <!--
                     <div class="location-content"><p>No 13, Emerald Hills, California, USA <br> No 113, Farm Hill Blvd, California, USA <br> No 97, Huddart Park, California, USA <br> No 13, Alameda de las Pulgas, California, USA</p></div>
+                    -->
                   </div>
                 </div>
               </div>

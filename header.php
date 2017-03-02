@@ -27,7 +27,8 @@
     <![endif]-->
   </head>
   <body>
-    <!-- Page pre loader -->
+
+    <!-- Page pre loader 
     <div id="pre-loader">
         <div class="loader-holder">
             <div class="frame">
@@ -35,7 +36,9 @@
             </div>
         </div>
     </div>
-    <div class="wrapper">
+    -->
+    
+    <div class="wrapper"> 
 
     <?php 
     

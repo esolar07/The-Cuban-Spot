@@ -5,7 +5,7 @@
         <ul>
           <li class="active"><a href="index.php" title="Home">Home</a></li>
           <li class="has-child"><a href="menu.php" title="Menu">Menu</a></li>
-          <li><a href="truck-locator.php" title="Truck locator">Truck locator</a></li>
+          <li><a href="truck-locator.php" title="Truck locator">Schedule</a></li>
           <li class="logo"><a href="index.php"></a></li>
           <li class="has-child">
             <a href="event.php" title="events">events<span class="caret"></span></a>
@@ -28,12 +28,12 @@
       <div id="page">
         <div class="header">
           <a href="#menu"></a>
-        </div>
+        </div>  
         <nav id="menu">
           <ul>
             <li><a href="index.php" title="Home">Home</a></li>
             <li><a href="menu.php" title="Menu">Menu</a></li>
-            <li><a href="truck-locator.php" title="Truck locator">Truck locator</a></li>
+            <li><a href="truck-locator.php" title="Truck locator">Schedule</a></li>
             <li>
               <a href="event.php" title="events">events</a>
               <ul>
