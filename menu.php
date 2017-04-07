@@ -21,6 +21,7 @@
                 <div class="row">
                   <div class="text-center col-sm-12">
                     <h2>Check our dishes</h2>
+                    <h5><a class="btn-black" href="http://thecubanspot.com/menu.pdf">Downloadable Menu</a></h5>
                     <div class="portfolioFilter">
                       <a href="javascript:;" data-filter="*" class="current">All</a>
                       <a href="javascript:;" data-filter=".Fritas">Fritas</a>
