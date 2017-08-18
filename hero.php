@@ -49,7 +49,7 @@
                     data-endspeed="300"
                     data-endeasing="Power1.easeIn"
                     data-captionhidden="off"
-                    style="z-index: 6"><a href="truck-locator.php;" class="btn-black">See schedule</a>
+                    style="z-index: 6"><a href="truck-locator.php" class="btn-black">See schedule</a>
                     </div>
                 </li>
                 <li data-transition="zoomin" data-slotamount="7" data-masterspeed="1500" data-thumb="images/thumb1.jpg" data-delay="5000"  data-saveperformance="on"  data-title="Slide">
